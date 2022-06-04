@@ -18,8 +18,8 @@ body {
 .main-container {
   background-color: var(--mcd-red-color);
   width: 80%;
-  height: auto;
-  padding: 20px;
+  height: 700px;
+  padding: 20px 20px 40px 20px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -28,13 +28,14 @@ body {
   flex-flow: row wrap;
   gap: 10px;
   justify-content: flex-end;
-  align-content: center;
+  align-content: flex-end;
 }
 
 .cell {
   background-color: var(--mcd-white-background);
   width: 300px;
   padding: 5px;
+  border: 1px dashed #000;
   display: flex;
   gap: 20px;
 }
